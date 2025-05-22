@@ -1,0 +1,41 @@
+
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider settings
+.idea/
+
+# VSCode settings
+.vscode/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+
+# MAUI-specific
+*.hotreload.*
+*.apk
+*.aab
+
+# Secrets and environment variables
+*.env
+*.local.json
+secrets.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
