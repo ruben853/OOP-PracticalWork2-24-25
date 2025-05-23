@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practicalwork2.OperationsPage">
+
+        <VerticalStackLayout Padding="20">
+            <Label Text="User Info" FontSize="28" BackgroundColor="#3B5360" TextColor="White" Padding="10"/>
+            <Label x:Name="NameLabel" Text="Name: " />
+            <Label x:Name="UsernameLabel" Text="Username: " />
+            <Label x:Name="PasswordLabel" Text="Password: " />
+            <Label x:Name="OpsLabel" Text="Operations Executed: 0" />
+        </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practicalwork2.LoginPage">
+    <VerticalStackLayout Padding="30" Spacing="20">
+        <Label Text="OOP Conversor log in" FontSize="32" HorizontalOptions="Center" BackgroundColor="#3B5360" TextColor="White" Padding="10"/>
+
+        <Label Text="Username" FontSize="20"/>
+        <Entry x:Name="UsernameEntry" Placeholder="Enter your username" />
+
+        <Label Text="Password" FontSize="20"/>
+        <Entry x:Name="PasswordEntry" IsPassword="True" Placeholder="Enter your password" />
+
+        <Button Text="Forgot Password?" Clicked="OnPasswordClicked"  FontSize="14" HorizontalOptions="End"/>
+
+        <Button Text="Sign in" Clicked="OnSignInClicked" BackgroundColor="Gray" TextColor="White" />
+
+        <Button Text="Register" Clicked="OnRegisterClicked" FontSize="14" HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+
+</ContentPage>
