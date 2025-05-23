@@ -32,7 +32,7 @@ For starters, given the instructions, I decided to use 5 pages: LoginPage, Regis
 
 ## Class diagram
 
-
+![Class Diagram](ClassDiagram.jpg)
 
 # Problems
 
